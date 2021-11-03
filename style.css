@@ -1,0 +1,56 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(12, 83, 21);
+    font-family: 'Raleway', sans-serif;
+}
+
+.bar {
+    display: flex;
+    font-weight: 600;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 80px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    color: white;
+}
+
+.buttons .newGame {
+    background-color: crimson;
+    font-size: 17px;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.buttons .draw {
+    background-color: rgb(81, 81, 185);
+    font-size: 17px;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.buttons .stop {
+    background-color: rgb(81, 81, 185);
+    font-size: 17px;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.texto {
+    color: white;
+    font-size: 35px;
+}
